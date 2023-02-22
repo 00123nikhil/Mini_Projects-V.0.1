@@ -1,5 +1,4 @@
 # Mini_Projects-V.0.1
-## Medical store billing system.
 
 Welcome to my mini-projects V.0.1! This folder contains a collection of small coding projects that I have personally developed for the purpose of improving my coding skills and exploring new technologies.
 
