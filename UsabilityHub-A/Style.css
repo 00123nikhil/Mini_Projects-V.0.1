@@ -107,14 +107,14 @@ ul {
 }
 
 /* NOTE: nav bar */
-/* FIXME logo is not prefectly match */
+
 
 .main-nav {
   margin-top: 20px;
   justify-content: space-between;
 }
 
-.comapany-logo img {
+.company-logo img {
   width: 200px;
 }
 
