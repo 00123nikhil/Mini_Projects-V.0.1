@@ -14,8 +14,7 @@ make sure your code editor connect with github account.
 
 ## Others 
  for better work experience in contributions download these Extensions
- - gitlens *(required)
- - highlight comments *(required)
+ - Todo Tree *(required)
  - git *(required)
  - prettier
  - material theme icon pack
