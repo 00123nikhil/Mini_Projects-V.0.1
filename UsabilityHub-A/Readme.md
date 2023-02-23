@@ -13,7 +13,7 @@ Clone this repository to your local machine using the following command:git clon
 make sure your code editor connect with github account. 
 
 ## Others 
- for better work experience in contributions download
+ for better work experience in contributions download these Extensions
  - gitlens *(required)
  - highlight comments *(required)
  - git *(required)
@@ -21,11 +21,6 @@ make sure your code editor connect with github account.
  - material theme icon pack
 
 
-
-## Credits
-Font Awesome icons (https://fontawesome.com/)
-
-google font family (https://fonts.google.com/)
 ## Contributing
 Contributions to the Mini Project V.0.1 are welcome. To contribute, follow these steps:
 
@@ -34,4 +29,11 @@ Contributions to the Mini Project V.0.1 are welcome. To contribute, follow these
 3. Make your changes and commit them.
 4. Push your changes to your forked repository.
 5. Submit a pull request to the original repository.
+
+
+## Credits
+Font Awesome icons (https://fontawesome.com/)
+
+google font family (https://fonts.google.com/)
+
 
