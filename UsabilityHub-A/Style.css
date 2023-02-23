@@ -8,7 +8,10 @@
 
 /* here Variables- global variables */
 :root {
-  --primary-text-color: #fff;
+  --primary-text-color: black;
+  --accent-color: blue;
+  --accent-color-dark: #2b2ba8;
+  --secondary-text-color: yellow;
 }
 
 body {
@@ -37,7 +40,12 @@ a {
   display: inline-block;
 }
 
-/* Uiility classes here */
+ul {
+  list-style: none;
+}
+
+/* NOTE: Uiility classes here */
+
 .small-bold-text {
   font-size: 1rem;
   font-weight: 700;
@@ -47,4 +55,74 @@ a {
   max-width: 1180px;
   margin-inline: auto;
   padding-inline: var(--primary-text-color);
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.hover-links {
+  color: var(--primary-text-color);
+}
+
+.hover-links:hover {
+  color: var(--accent-color);
+}
+
+.primary-button {
+  background-color: var(--primary-text-color);
+  border-radius: 6px;
+  font-weight: 700;
+  color: white !important;
+  padding: 12px 24px;
+  /* FIXME button width not set properly */
+  box-shadow: 0, 0, 2px var(--accent-color);
+  transition: 0.2 ease-out;
+}
+
+.primary-button:hover {
+  background-color: var(--accent-color-dark);
+}
+
+.secondary-button {
+  border: 0.5px solid var(--secondary-text-color);
+  border-radius: 6px;
+  padding: 12px 24px;
+  transition: 0.2s ease-out;
+}
+
+/* NOTE: Top banner */
+
+.top-banner {
+  background-color: #4fb3d4;
+  background-image: url(./Assets/asset\ 30.png);
+  background-size: 300px;
+}
+
+.banner-text {
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+}
+
+/* NOTE: nav bar */
+/* FIXME logo is not prefectly match */
+
+.main-nav {
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.comapany-logo img {
+  width: 200px;
+}
+
+.nav-links {
+  flex-basis: 730px;
+}
+
+.nav-links ul {
+  justify-content: end;
+  gap: 40px;
 }
