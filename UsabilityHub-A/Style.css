@@ -1,3 +1,15 @@
+/* [x]Instructions:
+
+1.before start working please make sure you synchronize all changes.
+2.after completing any changes make it commit with required message   for another member can undrstand.
+
+# how to use TODO TREE
+
+ use todo tree for finding quickly for better coding.
+ 1.use capital words for todo tree. (note, fixme, hack, [],[ x])
+ 2.It will highlighted itself and added in todo tree section.
+*/
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,600&family=Roboto:wght@400;500;900&display=swap");
 
 * {
@@ -107,7 +119,6 @@ ul {
 }
 
 /* NOTE: nav bar */
-
 
 .main-nav {
   margin-top: 20px;
