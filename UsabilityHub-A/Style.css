@@ -10,6 +10,7 @@
  2.It will highlighted itself and added in todo tree section.
 */
 
+/* poppins fonts added. */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,600&family=Roboto:wght@400;500;900&display=swap");
 
 * {
@@ -22,7 +23,7 @@
 :root {
   --primary-text-color: black;
   --accent-color: blue;
-  --accent-color-dark: #2b2ba8;
+  --accent-color-dark: #183b54;
   --secondary-text-color: yellow;
 }
 
@@ -87,7 +88,7 @@ ul {
   border-radius: 6px;
   font-weight: 700;
   color: white !important;
-  padding: 12px 24px;
+  padding: 10px 20px;
   /* FIXME button width not set properly */
   box-shadow: 0, 0, 2px var(--accent-color);
   transition: 0.2 ease-out;
@@ -100,16 +101,17 @@ ul {
 .secondary-button {
   border: 0.5px solid var(--secondary-text-color);
   border-radius: 6px;
-  padding: 12px 24px;
+  padding: 10px 20px;
   transition: 0.2s ease-out;
 }
 
 /* NOTE: Top banner */
 
 .top-banner {
-  background-color: #4fb3d4;
-  background-image: url(./Assets/asset\ 30.png);
+  background-color: #e74694;
+  /* background-image: url(./Assets/asset\ 30.png); */
   background-size: 300px;
+  background-repeat: repeat;
 }
 
 .banner-text {
@@ -136,4 +138,64 @@ ul {
 .nav-links ul {
   justify-content: end;
   gap: 40px;
+}
+
+header {
+  padding: 50px;
+}
+.header-section {
+  justify-content: center;
+  gap: 50px;
+}
+
+.header-left {
+  max-width: 40vw;
+}
+.header-left h1 {
+  margin-top: 20px;
+}
+.get-started-btn {
+  margin-top: 20px;
+}
+
+.header-right img {
+  width: 600px;
+}
+
+/* NOTE: Cta-section */
+.cta-section-container {
+  flex-direction: column;
+  gap: 30px;
+}
+.cta-section {
+  background-color: #183b54;
+  padding: 80px 40px;
+  color: white;
+}
+.cta-section-container p {
+  color: white;
+}
+
+/*NOTE: Footer */
+footer {
+  padding-block: 80px;
+  background-color: #bfe4e6;
+}
+.link-column {
+  flex-direction: column;
+  gap: 20px;
+}
+.footer-container {
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* NOTE: Sub-footer */
+.subfooter {
+  background-color: #8ab0cb;
+  padding: 20px;
+}
+.subfooter-container {
+  justify-content: center;
+  gap: 30px;
 }
