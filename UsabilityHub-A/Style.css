@@ -70,6 +70,9 @@ ul {
   color: var(--accent-color);
 }
 
+
+/*  First Button */
+
 .primary-button {
   background-color: var(--primary-text-color);
   border-radius: 6px;
@@ -85,11 +88,19 @@ ul {
   background-color: var(--accent-color-dark);
 }
 
+/* 2nd Button */
 .secondary-button {
-  border: 0.5px solid var(--secondary-text-color);
+  border: 2px solid var(--primary-text-color);
   border-radius: 6px;
   padding: 12px 24px;
   transition: 0.2s ease-out;
+  color: var(--primary-text-color) !important;
+  font-weight: 700;
+}
+
+.secondary-button:hover{
+  background-color: var(--accent-color);
+  color: var(--secondary-text-color);
 }
 
 /* NOTE: Top banner */
@@ -126,3 +137,82 @@ ul {
   justify-content: end;
   gap: 40px;
 }
+
+/*  Header  */
+
+header{
+  padding: 50px var(--padding-inline-section) 0;
+  /* justify-content: center; */
+}
+
+/* header section */
+
+.header-section{
+  justify-content: center;
+}
+
+.first-container-right img{
+  width: 600px;
+}
+
+.first-container-left h1{
+margin-top: 40px;
+}
+
+.first-container-left{
+  gap: 50px;
+}
+
+.get-started{
+  margin-top: 20px;
+}
+
+/* company logo section */
+
+.comapany-vision{
+  text-align: center;
+  margin-block: 30px;
+  color: var(--primary-text-color);
+}
+
+.logo{
+  height: 46px;
+}
+
+.logos{
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+
+
+/*  Fetures Sections */
+
+.features-section{
+  padding: 80px var(--padding-inline-section) 0;
+}
+.fetures-heading{
+  margin: 20px;
+  text-align: center;
+}
+.fetures-heading-text{
+  margin-bottom: 20px;
+}
+
+.feture-area{
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.feture-card{
+  flex-direction: column;
+  gap: 20px;
+  max-width: 30%;
+  text-align: center;
+}
+.feture-card a{
+  border: none;
+}
+
