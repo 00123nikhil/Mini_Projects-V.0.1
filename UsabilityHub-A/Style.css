@@ -83,6 +83,13 @@ ul {
   color: var(--accent-color);
 }
 
+.big-feature-section{
+  margin: 1rem;
+  padding: 2rem;
+}
+
+
+
 /* -------------------------------------------------------------------- */
 /*  First Button-css */
 
@@ -164,6 +171,7 @@ header {
 /* header section*/
 
 .header-section {
+  margin: 5rem;
   justify-content: center;
 }
 
@@ -183,6 +191,7 @@ header {
   margin-top: 20px;
 }
 
+
 /* -------------------------------------------------------------------- */
 /* company logo section */
 
@@ -190,6 +199,7 @@ header {
   text-align: center;
   margin-block: 30px;
   color: var(--primary-text-color);
+
 }
 
 .logo {
@@ -205,6 +215,7 @@ header {
 /*  Fetures Sections */
 
 .features-section {
+  margin: 5rem;
   padding: 80px var(--padding-inline-section) 0;
 }
 .fetures-heading {
@@ -233,6 +244,7 @@ header {
 
 /* --------------------------------------- */
 /* NOTE: Cta-section */
+
 .cta-section-container {
   flex-direction: column;
   gap: 30px;
@@ -271,3 +283,97 @@ footer {
   justify-content: center;
   gap: 30px;
 }
+
+
+/*   Big Feature1 section slide 1 */
+
+
+.big-feature1  {
+  flex-direction: row-reverse;
+  gap: 50px;
+}
+
+.right-side-feature img {
+  width: 600px;
+}
+
+.left-side-feature h1 {
+  margin-top: 40px;
+}
+
+.left-side-feature{
+  gap: 50px;
+}
+.get-started {
+  margin-top: 20px;
+}
+
+
+/*   big Feature2 Section slide 2 */
+
+.big-feature2  {
+  gap: 50px;
+}
+
+.right-side-feature2 img {
+  width: 600px;
+}
+
+.left-side-feature2 h1 {
+  margin-top: 40px;
+}
+
+.left-side-feature2{
+  gap: 50px;
+}
+.get-started {
+  margin-top: 20px;
+}
+
+
+/*   big Feature3 Section slide 3 */
+
+.big-feature3  {
+  flex-direction: row-reverse;
+  gap: 50px;
+}
+
+.right-side-feature3 img {
+  width: 600px;
+}
+
+.left-side-feature3 h1 {
+  margin-top: 40px;
+}
+
+.left-side-feature3{
+  gap: 50px;
+}
+.get-started {
+  margin-top: 20px;
+}
+
+
+/* [ ] Hover effact  This is Additional for just understaing how this works and syntax  */
+
+.big-feature-section img:hover{
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+}  
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
