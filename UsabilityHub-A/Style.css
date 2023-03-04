@@ -18,7 +18,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/* ---------------------------------------------------------------- */
 /* here Variables- global variables */
 :root {
   --primary-text-color: black;
@@ -56,8 +56,8 @@ a {
 ul {
   list-style: none;
 }
-
-/* NOTE: Uiility classes here */
+/* ----------------------------------------------------------------- */
+/* NOTE: Uiility Classes */
 
 .small-bold-text {
   font-size: 1rem;
@@ -83,8 +83,8 @@ ul {
   color: var(--accent-color);
 }
 
-
-/*  First Button */
+/* -------------------------------------------------------------------- */
+/*  First Button-css */
 
 .primary-button {
   background-color: var(--primary-text-color);
@@ -92,7 +92,6 @@ ul {
   font-weight: 700;
   color: white !important;
   padding: 10px 20px;
-  /* FIXME button width not set properly */
   box-shadow: 0, 0, 2px var(--accent-color);
   transition: 0.2 ease-out;
 }
@@ -100,8 +99,8 @@ ul {
 .primary-button:hover {
   background-color: var(--accent-color-dark);
 }
-
-/* 2nd Button */
+/* --------------------------------------------------------------------- */
+/* 2nd Button=css */
 .secondary-button {
   border: 2px solid var(--primary-text-color);
   border-radius: 6px;
@@ -111,16 +110,16 @@ ul {
   font-weight: 700;
 }
 
-.secondary-button:hover{
+.secondary-button:hover {
   background-color: var(--accent-color);
   color: var(--secondary-text-color);
 }
 
+/* ------------------------------------------------------------------------ */
 /* NOTE: Top banner */
 
 .top-banner {
   background-color: #e74694;
-  /* background-image: url(./Assets/asset\ 30.png); */
   background-size: 300px;
   background-repeat: repeat;
 }
@@ -131,6 +130,7 @@ ul {
   text-align: center;
 }
 
+/* --------------------------------------------------- */
 /* NOTE: nav bar */
 
 .main-nav {
@@ -151,81 +151,123 @@ ul {
   gap: 40px;
 }
 
-/*  Header  */
+/* ------------------------------------------------------------------------- */
+/*  NOTE:Header*/
 
-header{
+header {
   padding: 50px var(--padding-inline-section) 0;
   /* justify-content: center; */
 }
 
-/* header section */
 
-.header-section{
+/* -------------------------------------------------------------------------- */
+/* header section*/
+
+.header-section {
   justify-content: center;
 }
 
-.first-container-right img{
+.first-container-right img {
   width: 600px;
 }
 
-.first-container-left h1{
-margin-top: 40px;
+.first-container-left h1 {
+  margin-top: 40px;
 }
 
-.first-container-left{
+.first-container-left {
   gap: 50px;
 }
 
-.get-started{
+.get-started {
   margin-top: 20px;
 }
 
+/* -------------------------------------------------------------------- */
 /* company logo section */
 
-.comapany-vision{
+.comapany-vision {
   text-align: center;
   margin-block: 30px;
   color: var(--primary-text-color);
 }
 
-.logo{
+.logo {
   height: 46px;
 }
 
-.logos{
+.logos {
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-
-
-
+/* ------------------------------------------- */
 /*  Fetures Sections */
 
-.features-section{
+.features-section {
   padding: 80px var(--padding-inline-section) 0;
 }
-.fetures-heading{
+.fetures-heading {
   margin: 20px;
   text-align: center;
 }
-.fetures-heading-text{
+.fetures-heading-text {
   margin-bottom: 20px;
 }
 
-.feture-area{
+.feture-area {
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 40px;
 }
 
-.feture-card{
+.feture-card {
   flex-direction: column;
   gap: 20px;
   max-width: 30%;
   text-align: center;
 }
-.feture-card a{
+.feture-card a {
   border: none;
 }
 
+/* --------------------------------------- */
+/* NOTE: Cta-section */
+.cta-section-container {
+  flex-direction: column;
+  gap: 30px;
+}
+.cta-section {
+  background-color: #183b54;
+  padding: 80px 40px;
+  color: white;
+}
+.cta-section-container p {
+  color: white;
+}
+
+/* ----------------------------------- */
+/*NOTE:Footer */
+footer {
+  padding-block: 80px;
+  background-color: #bfe4e6;
+}
+.link-column {
+  flex-direction: column;
+  gap: 20px;
+}
+.footer-container {
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* ----------------------------------------- */
+/* NOTE: Sub-footer */
+.subfooter {
+  background-color: #8ab0cb;
+  padding: 20px;
+}
+.subfooter-container {
+  justify-content: center;
+  gap: 30px;
+}
