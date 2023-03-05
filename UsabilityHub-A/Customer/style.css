@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*  Font  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,600&family=Roboto:wght@400;500;900&display=swap");
+
+
+
+/* global variables */
+:root {
+    --primary-text-color: black;
+    --accent-color: #2294ed;
+    --accent-color-dark: #84a2b7;
+    --secondary-text-color: yellow;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+  
+    color: var(--primary-text-color);
+  }
+  
+  h1 {
+    font-size: 3rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+  
+  p {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.25rem;
+    color: var(--primary-text-color);
+    line-height: 1.8rem;
+  }
+  
+  a {
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  /* ---------------------------------------- */
+  /* NOTE: Uiility Classes */
+  
+  .small-bold-text {
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  
+  .container {
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: var(--primary-text-color);
+  }
+  
+  .flex {
+    display: flex;
+    align-items: center;
+  }
+  
+  .hover-links {
+    color: var(--primary-text-color);
+  }
+  
+  .hover-links:hover {
+    color: var(--accent-color);
+  }
+  
+
+  /*  First Button-css */
+
+.primary-button {
+    background-color: #2294ed;;
+    border-radius: 6px;
+    font-weight: 700;
+    color: white !important;
+    padding: 10px 20px;
+    box-shadow: 0, 0, 2px var(--accent-color);
+    transition: 0.2 ease-out;
+  }
+  
+  .primary-button:hover {
+    background-color: var(--accent-color-dark);
+  }
+  /* ---------------------------------------- */
+  /* 2nd Button=css */
+  .secondary-button {
+    border: 2px solid var(--primary-text-color);
+    border-radius: 6px;
+    padding: 10px 20px;
+    transition: 0.2s ease-out;
+    color: var(--primary-text-color) !important;
+    font-weight: 700;
+  }
+  
+  .secondary-button:hover {
+    background-color: var(--accent-color);
+    color: var(--secondary-text-color);
+  }
+  
+  /* -------------------------------------- */
+  /* NOTE: Top banner */
+  
+  .top-banner {
+    background-color: #e74694;
+    background-size: 300px;
+    background-repeat: repeat;
+  }
+  
+  .banner-text {
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+  }
+  
+  /* ---------------------------------------- */
+  /* NOTE: nav bar */
+  
+  .main-nav {
+    margin-top: 20px;
+    justify-content: space-between;
+  }
+  
+  .company-logo img {
+    width: 200px;
+  }
+  
+  .nav-links {
+    flex-basis: 730px;
+  }
+  
+  .nav-links ul {
+    justify-content: end;
+    gap: 40px;
+  }
+  
