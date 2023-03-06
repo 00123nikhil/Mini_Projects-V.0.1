@@ -1,7 +1,7 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /*  Font  */
@@ -11,133 +11,288 @@
 
 /* global variables */
 :root {
-    --primary-text-color: black;
-    --accent-color: #2294ed;
-    --accent-color-dark: #84a2b7;
-    --secondary-text-color: yellow;
-  }
-  
-  body {
-    font-family: "Poppins", sans-serif;
-  
-    color: var(--primary-text-color);
-  }
-  
-  h1 {
-    font-size: 3rem;
-  }
-  
-  h2 {
-    font-size: 2rem;
-  }
-  
-  p {
-    font-family: "Roboto", sans-serif;
-    font-size: 1.25rem;
-    color: var(--primary-text-color);
-    line-height: 1.8rem;
-  }
-  
-  a {
-    text-decoration: none;
-    display: inline-block;
-  }
-  
-  ul {
-    list-style: none;
-  }
-  /* ---------------------------------------- */
-  /* NOTE: Uiility Classes */
-  
-  .small-bold-text {
-    font-size: 1rem;
-    font-weight: 700;
-  }
-  
-  .container {
-    max-width: 1180px;
-    margin-inline: auto;
-    padding-inline: var(--primary-text-color);
-  }
-  
-  .flex {
-    display: flex;
-    align-items: center;
-  }
-  
-  .hover-links {
-    color: var(--primary-text-color);
-  }
-  
-  .hover-links:hover {
-    color: var(--accent-color);
-  }
-  
+  --primary-text-color: black;
+  --accent-color: #2294ed;
+  --accent-color-dark: #84a2b7;
+  --secondary-text-color: yellow;
+}
 
-  /*  First Button-css */
+body {
+  font-family: "Poppins", sans-serif;
+
+  color: var(--primary-text-color);
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.25rem;
+  color: #183b56;
+  line-height: 1.8rem;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+}
+/* ---------------------------------------- */
+/* NOTE: Uiility Classes */
+
+.small-bold-text {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.container {
+  max-width: 1180px;
+  margin-inline: auto;
+  padding-inline: var(--primary-text-color);
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.hover-links {
+  color: var(--primary-text-color);
+}
+
+.hover-links:hover {
+  color: var(--accent-color);
+}
+
+
+/*  First Button-css */
 
 .primary-button {
-    background-color: #2294ed;;
-    border-radius: 6px;
-    font-weight: 700;
-    color: white !important;
-    padding: 10px 20px;
-    box-shadow: 0, 0, 2px var(--accent-color);
-    transition: 0.2 ease-out;
-  }
-  
-  .primary-button:hover {
-    background-color: var(--accent-color-dark);
-  }
-  /* ---------------------------------------- */
-  /* 2nd Button=css */
-  .secondary-button {
-    border: 2px solid var(--primary-text-color);
-    border-radius: 6px;
-    padding: 10px 20px;
-    transition: 0.2s ease-out;
-    color: var(--primary-text-color) !important;
-    font-weight: 700;
-  }
-  
-  .secondary-button:hover {
-    background-color: var(--accent-color);
-    color: var(--secondary-text-color);
-  }
-  
-  /* -------------------------------------- */
-  /* NOTE: Top banner */
-  
-  .top-banner {
-    background-color: #e74694;
-    background-size: 300px;
-    background-repeat: repeat;
-  }
-  
-  .banner-text {
-    color: white;
-    padding: 15px 30px;
-    text-align: center;
-  }
-  
-  /* ---------------------------------------- */
-  /* NOTE: nav bar */
-  
-  .main-nav {
-    margin-top: 20px;
-    justify-content: space-between;
-  }
-  
-  .company-logo img {
-    width: 200px;
-  }
-  
-  .nav-links {
-    flex-basis: 730px;
-  }
-  
-  .nav-links ul {
-    justify-content: end;
-    gap: 40px;
-  }
-  
+  background-color: #2294ed;;
+  border-radius: 4px;
+  width: fit-content ;
+  font-weight: 600;
+  color: white !important;
+  padding: 10px 30px;
+  box-shadow: 0, 0, 2px var(--accent-color);
+  transition: 0.2 ease-out;
+}
+
+.primary-button:hover {
+  background-color: var(--accent-color-dark);
+}
+/* ---------------------------------------- */
+/* 2nd Button=css */
+.secondary-button {
+  border: 2px solid var(--primary-text-color);
+  border-radius: 6px;
+  padding: 10px 30px;
+  transition: 0.2s ease-out;
+  color: var(--primary-text-color) !important;
+  font-weight: 700;
+}
+
+.secondary-button:hover {
+  background-color: var(--accent-color);
+  color: var(--secondary-text-color);
+}
+
+/* -------------------------------------- */
+/* NOTE: Top banner */
+
+.top-banner {
+  background-color: #e74694;
+  background-size: 300px;
+  background-repeat: repeat;
+}
+
+.banner-text {
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+}
+
+/* ---------------------------------------- */
+/* NOTE: nav bar */
+
+.main-nav {
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.company-logo img {
+  width: 200px;
+}
+
+.nav-links {
+  flex-basis: 730px;
+}
+
+.nav-links ul {
+  justify-content: end;
+  gap: 40px;
+}
+
+
+/* First Box Heading */
+
+.firstbox{
+ /* padding-top: 100px; */
+ padding-top: 8rem;
+}
+
+.firstbox h1{
+  margin-bottom: 1rem;
+}
+
+
+/* Group intor and message  1st and 2nd and 3rd */
+
+#group-photo{
+  height: 60vh;
+}
+
+.intro-box{
+  margin: 6rem;
+  column-gap: 35px;
+}
+
+.left-intro span{
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.right-intro{
+  padding-top: 4rem;
+  margin: 1rem;
+}
+
+.right-intro p{
+  font-size: 25px;
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+
+.intro-card span{
+  font-size: 15px;
+}
+#card1{
+  padding-right: 15px;
+}
+
+.intro-card{
+  padding-top: 20px;
+}
+
+.button-card{
+  padding: 10px;
+  margin: 2rem;
+}
+
+/* Company log and name section */
+
+.companylist{
+margin-block: 30px;
+color: var(--primary-text-color);
+padding-bottom: 100px;
+}
+
+.company {
+width: 6rem;
+padding-bottom: 20px;
+}
+
+.company2 {
+width: 5rem;
+padding-bottom: 20px;
+}
+.logos {
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+.compnaylist ul li img{
+width: 6rem;
+padding: 2px;
+}
+
+/* for the logo which is small  */
+
+#largelogo{
+width: 25rem;
+}
+
+
+#large{
+width: 12.5rem;
+}
+
+
+
+/* Final messgae box */
+.message{
+font-family: 'Poppins' sans-serif ;
+text-align: center ;
+margin: 5rem;
+}
+
+.message h1{
+padding-bottom: 3rem;
+}
+
+.message p{
+padding-bottom: 2rem;
+}
+
+.final-box{
+margin-top: 10rem;
+margin-bottom: 10rem;
+}
+
+/* footor main section */
+footer {
+padding-block: 80px;
+background-color:#ebf2fa;
+}
+.column-link {
+flex-direction: column;
+gap: 20px;
+align-items: flex-start;
+}
+.column-link h4{
+padding-bottom: 1rem;
+}
+.footer-container {
+justify-content: space-between;
+align-items: flex-start;
+}
+
+
+/* Sub- Footer container */
+
+.subfooter {
+background-color: #8ab0cb;
+padding: 20px;
+justify-content: center;
+}
+
+.subfooter-left {
+font-size: 25px;
+padding-top: 15px;
+font-weight: 500;
+}
+
+.subfooter-right{
+
+}
+
+
