@@ -279,20 +279,34 @@ align-items: flex-start;
 
 /* Sub- Footer container */
 
+.sub-footer {
+  padding: 0;
+}
+
 .subfooter {
 background-color: #8ab0cb;
 padding: 20px;
 justify-content: center;
+align-items: center;
+align-content: center;
 }
 
 .subfooter-left {
-font-size: 25px;
-padding-top: 15px;
-font-weight: 500;
+font-size: 15px;
+padding-top: 15px 20px;
+font-weight: 300;
+margin-right: 4rem;
 }
 
-.subfooter-right{
-
+.subfooter-left a{
+  margin-inline: 20px;
+  color: var(--primary-text-color);
 }
+
+.subfooter-right a i{
+margin-left: 1.5rem;
+font-size: 20px;
+}
+
 
 
